@@ -1,0 +1,182 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    
+   background-color: aqua;
+   font-family: Roboto,Arial,sans-serif;
+  
+}
+
+#wrap{
+    height: 80vh;
+    margin-top:70px ;
+    margin-bottom: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+ 
+    /* align-items: center; */
+
+}
+
+#Container{
+    display: flex;
+    border: 2px ;
+    background-color: white;
+    width: 50vw;
+}
+
+
+h1{
+    padding: 20px;
+    font-family: Roboto,Arial,sans-serif;
+    padding-top: 50px;
+    color: white;
+    padding-bottom: 0%;
+}
+
+.para1st {
+    width: 100%;
+    margin-right: 30px;
+    border: 2px;
+    padding: 27px;
+    color:#DBDBDB;
+    font-family: Roboto,Arial,sans-serif;
+    font-size: 18px;
+}
+
+.Division1{
+    background-color: #2874F0;
+    width: 40%;
+
+}
+
+img{
+    padding-top: 40%;
+    padding-left: 10px; 
+    width: 100%;
+
+}
+
+/* .Division2{
+    background-color:#FFFFFF ;
+    width:65%;
+
+} */
+
+
+#form{
+    /* padding-left: 30px;
+    padding-top: 50px; */
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: grey;
+    padding: 20px;
+    position: relative;
+    margin-top: 10px;
+}
+
+#flip{
+    font-size: 12px;
+    width: 80%;
+   
+}
+
+input{
+    width: 90%;
+    padding: 10px;
+    border: none;
+    border-bottom: 0.5px solid grey;
+    outline: none;
+}
+
+.submit{
+    background-color: #FB641B;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    padding: 15px;
+    
+}
+
+button{
+    width: 80%;
+    height: 50px;
+    border: none;
+    /* box-shadow: 10px; */
+    background-color: white;
+    box-shadow: 1px 1px grey;
+    color: #2874F0;
+    font-weight: bold;
+   
+    
+}
+
+a{
+    text-decoration: none;
+    color: #2874F0;
+   
+}
+a:hover
+{
+    text-decoration: underline solid red;
+    
+}
+.or{
+    
+    padding-left: 40%;
+}
+
+.last{
+    padding: 50px;
+    font-weight: bold;
+    color: #2874F0;
+    font-size: 15px;
+}
+
+#forgot{
+    position: absolute;
+    right: 13.5%;
+    top: 21%;
+    color: #2874F0;
+    font-weight: bold;
+}
+
+#email:hover{
+    border-bottom: 2px solid orangered;
+}
+
+#password{
+    border-bottom: 2px solid orangered;
+
+}
+
+#requestOtpButton {
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    width: 90%;
+    box-shadow: 2px 3px 5px lightgrey;
+    font-weight: bold;
+}
+#requestOtpButton:hover {
+    box-shadow: 2px 1px 3px grey;
+}
+
+/* 
+@media only screen and (max-width: 500px) {
+    #container {
+      display: flex;
+      flex-direction: column;
+    }
+  } */
+
